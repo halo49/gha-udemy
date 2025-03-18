@@ -1,0 +1,11 @@
+name: 01b Ejercicio hola mundo
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hola mundo
+      run: echo "Hola Yerto"
